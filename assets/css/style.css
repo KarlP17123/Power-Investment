@@ -25,6 +25,7 @@ h1, h2 {
 #logo {
     float: left;
     font-size: 300%;
+    margin-left: 20px;
 }
 
 /* navigation links */
@@ -63,7 +64,9 @@ h1, h2 {
     height: 800px;
     width: 100%;
     overflow: hidden;
+    position: relative;
 }
+
 
 
 #hero-image1 {
@@ -71,4 +74,26 @@ h1, h2 {
     width: 100%;
     background: url('../images/hero-image1.jpg') no-repeat center center;
 }
+
+/* about */
+
+#about {
+    height: 800px;
+}
+
+#center-about {
+    width: 15%;
+    margin: 0 auto;
+}
+
+#center-about {
+    width: 15%;
+    margin: 0 auto;
+}
+
+#center-about {
+    width: 15%;
+    margin: 0 auto;
+}
+
 
