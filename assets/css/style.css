@@ -56,5 +56,19 @@ h1, h2 {
 .active {
     border-bottom: 4px solid #00009B;
 }
-    
+
+/* hero image */
+
+#hero-outer {
+    height: 800px;
+    width: 100%;
+    overflow: hidden;
+}
+
+
+#hero-image1 {
+    height: 800px;
+    width: 100%;
+    background: url('../images/hero-image1.jpg') no-repeat center center;
+}
 
