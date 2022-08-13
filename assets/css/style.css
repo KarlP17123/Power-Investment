@@ -52,11 +52,11 @@ h1, h2 {
 }
 
 #menu a:hover {
-    border-bottom: 4px solid #00009B;
+    border-bottom: 4px solid #00ABFF;
 }
 
 .active {
-    border-bottom: 4px solid #00009B;
+    border-bottom: 4px solid #00ABFF;
 }
 
 /* hero image */
@@ -99,14 +99,14 @@ h1, h2 {
 .about-text p {
     width: 60%;
     margin: auto;
-    padding: 30px 0;
+    padding: 40px 0;
 }
 
 p.round1 {
-    border: 2px solid black;
+    border: 5px solid white;
     background-color: #00ABFF;
-    border-radius: 5px;
-    padding: 5px;
+    border-radius: 20px;
+    padding: 20px;
  }
 
 /* investment */
@@ -119,11 +119,11 @@ p.round1 {
 }
 
 .section-header {
-    margin-bottom: 50px;
+    margin-bottom: 40px;
 }
 
 .section-header p {
-    width: 30%;
+    width: 60%;
     margin: auto;
     text-align: center;
     line-height: 1.9;
@@ -135,16 +135,121 @@ p.round1 {
     padding: 40px 0;
 }
 
- p.round1 {
-    border: 2px solid black;
+p.round1 {
+    border: 5px solid white;
     background-color: #00ABFF;
-    border-radius: 5px;
-    padding: 5px;
+    border-radius: 20px;
+    padding: 20px;
  }
 
+ /* pricing */
+
+ h1 {
+    text-align: center;
+ }
+
+.content{
+    max-width: 1090px;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.content .card{
+    background: #34A6FF;
+    width: calc(33% - 20px);
+    text-align: center;
+    padding: 15px 30px  30px 30px;
+    box-shadow: 0 5px 10px rgba(0,0,0, 0.15);
+}
+
+.content .card .top .title{
+    font-size: 27px;
+    font-weight: 600;
+}
+
+.content .card .top .price-sec{
+    margin-top: -10px;
+    font-weight: 600;
+}
+
+.content .card .top .price{
+    font-size: 45px;
+}
+
+.content .card .info{
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+.content .card .details .one{
+    margin-top: 25px;
+    font-size: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.content .card .details .one::before{
+    position: absolute;
+    content: "";
+    width: 100%;
+    background: #000000;
+    height: 1px;
+    left: 0;
+    top: -12px;
+    border-radius: 25px;
+}
 
 
 
+.content .card button{
+    outline: none;
+    border: none;
+    height: 42px;
+    color:#fff;
+    margin-top: 30px;
+    border-radius: 3px;
+    font-size: 18px;
+    width: 100%;
+    display: block;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    letter-spacing: 1px;
+}
 
+.content .one .top,
+.content .one button{
+    background: #e90564;
+}
+
+.content .tow .top,
+.content .tow button{
+    background:#0224e6;
+}
+
+
+
+.content button:hover {
+    filter: brightness(90%);
+}
+
+
+@media (max-width:1000px) {
+    .content .card{
+        background: #fff;
+        width: calc(50% - 20px);
+        margin-bottom: 30px;
+    }
+}
+
+@media (max-width:715px) {
+    .content .card{
+        width: 100%;
+    }
+}
 
 
