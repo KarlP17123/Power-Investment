@@ -257,6 +257,7 @@ h1{
     text-align: center;
 }
 
+
 * {
     box-sizing: border-box;
   }
@@ -284,14 +285,14 @@ h1{
   
   /* Overwrite default styles of hr */
   hr {
-    border: 1px solid #f1f1f1;
+    border: 1px solid #00ABFF;
     margin-bottom: 25px;
   }
   
   /* Set a style for the submit button */
   .registerbtn {
-    background-color: #000000;
-    color: white;
+    background-color: #FFFFFF;
+    color: #00ABFF;
     padding: 16px 20px;
     margin: 8px 0;
     border: none;
@@ -301,6 +302,35 @@ h1{
   }
   
   
-  
-/* footer */
+  /* Set a grey background color and center the text of the "sign in" section */
+  .signin {
+    background-color: #f1f1f1;
+    text-align: center;
+  }
+
+  /* footer contact information */
+  p{
+    text-align: center;
+  }
+
+  /*footer social links with style*/
+
+  footer {
+    height: 150px;
+}
+
+.social-media {
+    text-align: center;
+}
+
+.social-media > li {
+    display: inline;
+}
+
+.social-media i {
+    font-size: 160%;
+    margin: 1%;
+    padding: 5%;
+    color: #00ABFF;
+}
 
